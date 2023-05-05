@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+ }
+ 
+ html{
+    border: 5px solid green;
+    background: url('./wp4658964.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ 
+ .home1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-style: italic;
+    border-radius: 2px;
+    margin-bottom: 50px;
+    font-size: 30px;
+ 
+ }
+ .one{
+   background-color: black;
+   border: 10px solid red;
+   border-radius: 50px;
+   padding: 5px;
+   width: 350px;
+   text-align: center;
+   line-height: 50px;
+   
+ }
+
+.heading{
+   text-align: center;
+   background: black;
+   border: 10px solid red;
+   border-radius: 50px;
+   padding-inline:15px;
+   margin-left: -500px;
+   word-spacing: 2px;
+}
+
+.home2{
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+}
+
+.circle{
+   text-decoration: underline;
+   text-align: center;
+   padding:30px 10px;
+   font-weight: 600;
+   font-size: 18px;
+   margin-top: 170px;
+   font-style: italic;
+   height: 300px;
+   width: 300px;
+   border: 10px solid gray;
+   color: black;
+   border-radius: 50%;
+   background: rgb(28, 119, 180);
+}
+
+.form{
+   width: 300px;
+   border: 10px dashed red;
+   text-align: center;
+   margin-bottom: 50px;
+   color: white;
+   background-color: white;
+}
+
+h2{
+   border-bottom: 1px solid;
+   color: black;
+}
+
+.home3{
+   width: 200px;
+   height: auto;
+   text-align: center;
+   border: 10px solid red;
+   margin-inline: auto;
+   border-radius: 55px;
+   background: black;
+   color: white;
+}
+
+.home4{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+   color: white;
+   margin: 20px 0px;
+}
+
+.menu{
+   background: maroon;
+   border: 2px solid greenyellow;
+   width: 250px;
+   border-radius: 30px;
+}
+ 
